@@ -11,6 +11,7 @@
 		40EBCFBC2A3F313F00235B93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EBCFBB2A3F313F00235B93 /* ContentView.swift */; };
 		40EBCFBE2A3F314100235B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EBCFBD2A3F314100235B93 /* Assets.xcassets */; };
 		40EBCFC12A3F314100235B93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EBCFC02A3F314100235B93 /* Preview Assets.xcassets */; };
+		40EBCFC82A3F36FD00235B93 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 40EBCFC72A3F36FD00235B93 /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		40EBCFBB2A3F313F00235B93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		40EBCFBD2A3F314100235B93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40EBCFC02A3F314100235B93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40EBCFC72A3F36FD00235B93 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				40EBCFBB2A3F313F00235B93 /* ContentView.swift */,
 				40EBCFBD2A3F314100235B93 /* Assets.xcassets */,
 				40EBCFBF2A3F314100235B93 /* Preview Content */,
+				40EBCFC72A3F36FD00235B93 /* Shaders.metal */,
 			);
 			path = PracticeMetalShaderEffect;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40EBCFC82A3F36FD00235B93 /* Shaders.metal in Sources */,
 				40EBCFBC2A3F313F00235B93 /* ContentView.swift in Sources */,
 				40EBCFBA2A3F313F00235B93 /* PracticeMetalShaderEffectApp.swift in Sources */,
 			);
